@@ -1,5 +1,7 @@
 'use strict';
 
-const str = 'ES6 now';
+const Dog = require('./dog');
 
-console.log(`Hello ${str}`);
+var bingo = new Dog('Bingo');
+
+console.log(bingo.bark());
