@@ -1,0 +1,14 @@
+{
+    "name": "js-stack-from-scratch-dexter",
+    "version": "0.1.0",
+    "description": "This is a practice js stack of Dexter",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ."
+    },
+    "author": "Dexter Nguyen",
+    "license": "MIT",
+    "dependencies": {
+        "color": "^1.0.3"
+    }
+}
