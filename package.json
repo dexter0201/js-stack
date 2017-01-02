@@ -4,11 +4,20 @@
     "description": "This is a practice js stack of Dexter",
     "main": "index.js",
     "scripts": {
-        "start": "node ."
+        "start": "gulp"
     },
     "author": "Dexter Nguyen",
     "license": "MIT",
-    "dependencies": {
-        "color": "^1.0.3"
+    "dependencies": {},
+    "devDependencies": {
+        "babel-preset-latest": "^6.16.0",
+        "del": "^2.2.2",
+        "gulp": "^3.9.1",
+        "gulp-babel": "^6.1.2"
+    },
+    "babel": {
+        "presets": [
+            "latest"
+        ]
     }
 }
